@@ -24,6 +24,15 @@ body{
     margin: 0 135px 0 0;   
 }
 
+/* This section is to add the line between the navbar */
+.nav-item { 
+    border-right: 2px solid #4aaaa5;
+}
+
+.nav-item:last-child {
+    border-right: none;
+}
+
 /* This class just change the color of the background */
 a{
     color: #777777;
@@ -32,7 +41,7 @@ a{
 /* This section add extra customization to the container class */
 .container{
     border: 2px solid #cccccc;
-    margin: 40px auto;
+    margin: 80px auto;
     width: 960px;
     background: white;     
 }
@@ -54,6 +63,10 @@ footer{
     border-top: 2px solid #4aaaa5;
     color: white;
     background-color: #777777;
+    /* bottom: 30%; */
+    /* position: fixed; */
+    width: 100%;    
+    margin-top: 10%;
 }
 
 /*  This modify the button in the contact page */
@@ -67,4 +80,9 @@ footer{
     margin-bottom: 0;
     background-color: #4aaaa5;  
     
+}
+
+/*This code change the size of the text area*/
+textarea.form-control {
+    height: 265px;
 }
